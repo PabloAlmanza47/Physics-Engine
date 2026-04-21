@@ -43,7 +43,7 @@ int main(int argc, char* argv[]) {
         SDL_RenderClear(renderer);
 
         // Draw rectangle at updated position
-        SDL_Rect rect = { (int)x, (int)y, 100, 100 };
+        SDL_Rect rect = { (int)x, (int)y, 50, 50 };
         SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
         SDL_RenderFillRect(renderer, &rect);
 
